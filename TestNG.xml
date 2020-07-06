@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="gur99CustomerV1">
+
+  <test name="Banking App Test">
+	<parameter name="browser" value="chrome" />
+    <classes>
+       <class name="com.gur99Customer.testCases.ValidateHome"/>
+       <class name="com.gur99Customer.testCases.Login"/>      
+    </classes>
+  </test> 
+</suite>
